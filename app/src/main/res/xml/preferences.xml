@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <com.mylibraries.seekbarpreference.SeekBarDialogPreference
+        android:key="value"
+        android:title="Title"
+        android:summary="Summary"
+        custom:min="10"
+        custom:max="35"
+        custom:message="ayy lmao" />
+
+</PreferenceScreen>
